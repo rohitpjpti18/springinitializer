@@ -7,6 +7,7 @@ class SvgIcon {
 
     companion object {
         final val DEFAULT_ICON: Icon = IconLoader.getIcon("icons/pluginIcon.svg", javaClass);
+        final val SPRING_INITIALIZER_ICON: Icon = IconLoader.getIcon("icons/spring.svg", javaClass);
     }
 
 }

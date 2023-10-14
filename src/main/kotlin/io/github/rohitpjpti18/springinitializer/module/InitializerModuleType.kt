@@ -33,7 +33,7 @@ class InitializerModuleType(): ModuleType<SpringInitializerBuilder>(ID) {
     }
 
     override fun getNodeIcon(isOpened: Boolean): Icon {
-        return SvgIcon.DEFAULT_ICON;
+        return SvgIcon.SPRING_INITIALIZER_ICON;
     }
 
     fun createWizardSteps(wizardContext: WizardContext?,
